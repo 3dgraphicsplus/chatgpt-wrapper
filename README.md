@@ -21,13 +21,14 @@ Or just get a quick response for one question:
 See below for details on using ChatGPT as an API from Python.
 
 ## Requirements
-
+Python 3x
 To use this repository, you need  `setuptools` installed. You can install it using `pip install setuptools`.
 
 ## Installation
 
 1. Install the latest version of this software directly from github with pip:
 ```bash
+pip install pytest-playwright rich pyreadline3
 pip install git+https://github.com/mmabrouk/chatgpt-wrapper
 ```
 
